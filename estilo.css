@@ -8,6 +8,8 @@ html, body {
   --pink: #d6a3fb;
   --green: #d0ff94 ;
   --grey: #e5e5e5;
+  --gutter: 3.125vw;
+
 
   margin: 0;
   padding: 0;
@@ -186,8 +188,45 @@ section.contact{
   background: linear-gradient(var(--blue), var(--grey),var(--pink) 60%,var(--green) 70%);
   border-radius: var(--border-radius);
 }
-section.contac a{
+section.contact a{
   font-size: 100px;
   color: #000000;
   font-weight: bold;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 768px) {
+  html, body {
+    --border-radius: 50px;
+    --gutter: 6.25vw;
+  } 
+
+  h1{
+    font-size: 60px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+
+  nav ul li {
+    margin-left: 25px;
+  }
+
+  section.service article {
+    flex-direction: column;
+  }
+
+  section.service figure{
+    flex-basis: 25vh;
+  }
+  section.service figure img {
+    width: 20%;
+  }
+
+  section.contact a{
+    font-size: 50px;
+    transform: rotate(-90deg);
+  }
 }
