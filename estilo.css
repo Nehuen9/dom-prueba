@@ -14,7 +14,7 @@ html, body {
   background: #000000;
   color: #ffffff;
   font-size: 30px;
-  font-family: sans-serif;
+  font-family: "Syne", sans-serif;
 }
 
 h1 {
@@ -54,6 +54,7 @@ section.full-screen {
 }
 
 /* navigation */
+
 nav {
   position: fixed;
   width: 100%;
@@ -80,7 +81,7 @@ nav ul li {
 
 nav ul li a {
   color: #ffffff;
-  font-family: monospace;
+  font-family: "Space Mono", monospace;
 }
 
 /* about section */
@@ -148,7 +149,7 @@ section.service .text {
 }
 
 section.service .text a{
-  font-family: monospace;
+  font-family: "Space Mono", monospace;
 }
 
 /* service section overrides */
@@ -188,4 +189,5 @@ section.contact{
 section.contac a{
   font-size: 100px;
   color: #000000;
+  font-weight: bold;
 }
