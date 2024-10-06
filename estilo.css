@@ -20,7 +20,7 @@ html, body {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 70px;
   margin: 0;
 }
 
@@ -230,3 +230,17 @@ section.contact a{
     transform: rotate(-90deg);
   }
 }
+
+/* animation */
+/* 
+section.service{
+  height: 150px;
+  overflow: hidden;
+  transition: height .5s;
+  interpolate-size: allow-keywords;
+}
+
+section.service:hover{
+  height: auto;
+}
+ */
