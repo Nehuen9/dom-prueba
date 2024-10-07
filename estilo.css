@@ -88,10 +88,11 @@ nav ul li a {
 
 /* about section */
 
-section.about .empty{
+section.about .empty {
   flex-basis: 37.5vw;
   background: var(--grey);
   border-radius: var(--border-radius);
+  transition: flex-basis 1s cubic-bezier(0,1.11,.58,.89);
 }
 
 section.about article{
@@ -101,12 +102,13 @@ section.about article{
 }
 
 section.about article .title{
-  flex: 2;
+  flex: 1;
   display: flex;
   align-items: flex-end;
   background: var(--blue);
   border-radius: 100px;
   padding: 3.125vw;
+  transition: flex-basis 1s cubic-bezier(0,1.11,.58,.89);
 }
 
 section.about article .description{
