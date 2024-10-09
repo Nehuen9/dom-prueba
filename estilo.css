@@ -136,7 +136,10 @@ section.service figure{
   margin: 0;
   background: var(--green);
   border-radius: var(--border-radius);
+  max-width: 62.5vw;
+  transition: flex-basis 1s cubic-bezier(0,1.11,.58,.89);
 }
+
 
 section.service figure .img{
   width: 50%;

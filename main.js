@@ -11,7 +11,7 @@ function handleMouseMove( event ){
   titleElement.style.flexBasis =  event.clientY / 2 + "px";
 
   figureElements.forEach( function( element ) {
-    element.style.flexBasis = event.clientX + "px";
+    element.style.flexBasis = (window.innerWidth - event.clientX) + "px";
   });
 }
 
