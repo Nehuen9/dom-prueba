@@ -107,7 +107,7 @@ section.about article .title{
   align-items: flex-end;
   background: var(--blue);
   border-radius: 100px;
-  padding: 3.125vw;
+  padding: var(--gutter);
   transition: flex-basis 1s cubic-bezier(0,1.11,.58,.89);
 }
 
@@ -117,8 +117,8 @@ section.about article .description{
   align-items: center;
   background: var(--pink);
   border-radius: var(--border-radius);
-  padding: 3.125vw;
-  color: #000000
+  padding: var(--gutter);
+  color: #000000;
 }
 
 /*Service section */
@@ -148,7 +148,7 @@ section.service .text {
   justify-content: center;
   flex: 1;
   background: #1f1a1c;
-  padding: 3.125vw;
+  padding: var(--gutter);
   border-radius: var(--border-radius);
 }
 
